@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: space-around;
+    height: 500px;
+    font-size: 12px;
+}
+.container input{
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: white;
+}
+.container_terms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container_terms p{
+    font-size: 10px;
+}
+.pass{
+    display: flex;
+    justify-content: center;
+}
+.pass input{
+    width: 97%;
+}
+.confirm_cad{
+    height: 30px;
+    border-radius: 5px;
+    background-color: blue;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+.pass div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+.suggestions ol{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
